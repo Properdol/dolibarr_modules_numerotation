@@ -38,7 +38,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '446120',			'name' => 'consommation',							'description'  =>   'Consommation prévisionnelle et réelles par tranches (LDM)'),
 	array('number' => '446121',			'name' => 'attestation TVA',						'description'  =>   'génère attestation TVA 5.5% renovation'),
 	array('number' => '446122',			'name' => 'mrp',									'description'  =>   'Gestion des MRP pour LDM'),
-	array('number' => '446123',			'name' => '???',									'description'  =>   '???'),
+	array('number' => '446123',			'name' => 'automicroentreprise',									'description'  =>   '???'),
 	array('number' => '446124',			'name' => 'acompte rapide'							'description'  =>   'Permet de saisir rapidement un acompte'),
 	array('number' => '446125',			'name' => '???',									'description'  =>   '???'),
 	array('number' => '446126',			'name' => 'planning général',						'description'  =>   'affiche planning kanban à partir des tranches (LDM) DOUBLON AVEC 446118 ?'),
