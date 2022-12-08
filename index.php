@@ -135,9 +135,10 @@ $dolibarr_modules_numerotation = array(
 	
 	array('number' => '446240',			'name' => 'do or not',								'description'  => 	'Check list pour dolibarr (pas développé pour le moment, juste débuté)'),
 	array('number' => '446241',			'name' => 'recap devis',							'description'  => 	'Statistiques supplémentaires sur les devis'),
-	array('number' => '446242',			'name' => 'to sage',								'description'  => 	'Export de la commande vers sage pour import'),
+	array('number' => '446242',			'name' => 'toxls',								'description'  => 	'Export de la commande et du devis au format .xls (pour sage)'),
 	
 	array('number' => '446250',			'name' => 'recapmarge',								'description'  => 	'Affiche la répartition de la marge sur les devis et les commandes, remplace recapFTPN'),
+
 
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
