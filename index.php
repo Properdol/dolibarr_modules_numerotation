@@ -133,11 +133,12 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '446238',			'name' => 'bloquerclient',							'description'  => 	'Bloquer un client même si encours ok'),
 	array('number' => '446239',			'name' => 'recap v+',								'description'  => 	'Exporter ds un tableau xls les produits vestiaire+'),
 	
-	array('number' => '446240',			'name' => 'do or not',								'description'  => 	'Check list pour dolibarr (pas développé pour le moment, juste débuté)'),
-	array('number' => '446241',			'name' => 'recap devis',							'description'  => 	'Statistiques supplémentaires sur les devis'),
+	array('number' => '446240',			'name' => 'do or not',							'description'  => 	'Check list pour dolibarr (pas développé pour le moment, juste débuté)'),
+	array('number' => '446241',			'name' => 'recap devis',						'description'  => 	'Statistiques supplémentaires sur les devis'),
 	array('number' => '446242',			'name' => 'toxls',								'description'  => 	'Export de la commande et du devis au format .xls (pour sage)'),
 	
 	array('number' => '446250',			'name' => 'recapmarge',								'description'  => 	'Affiche la répartition de la marge sur les devis et les commandes, remplace recapFTPN'),
+	array('number' => '446251',			'name' => 'contactcategories',						'description'  => 	'Ajoute des endpoints à l\'API dolibarr pour cocamap),
 
 
 	/*AUTRES et ANOMALIES*/
