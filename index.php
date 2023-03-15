@@ -137,11 +137,12 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '446241',			'name' => 'recap devis',						'description'  => 	'Statistiques supplémentaires sur les devis'),
 	array('number' => '446242',			'name' => 'toxls',								'description'  => 	'Export de la commande et du devis au format .xls (pour sage)'),
 	
-	array('number' => '446250',			'name' => 'recapmarge',								'description'  => 	'Affiche la répartition de la marge sur les devis et les commandes, remplace recapFTPN'),
-	array('number' => '446251',			'name' => 'contactcategories',						'description'  => 	'Ajoute des endpoints à l\'API dolibarr pour cocamap'),
-	array('number' => '446252',			'name' => 'noforget',							'description'  => 		'Permet de faire penser à l(utilisateur de parler de certains produits'),
-	array('number' => '446253',			'name' => 'tooling',							'description'  => 		'Permet de gérer de l\'outillage pour AP Extrusion'),
-	array('number' => '446254',			'name' => 'productionline',							'description'  => 		'Permet de gérer les lignes de production pour AP Extrusion),
+	array('number' => '446250',			'name' => 'recapmarge',							'description'  => 	'Affiche la répartition de la marge sur les devis et les commandes, remplace recapFTPN'),
+	array('number' => '446251',			'name' => 'contactcategories',					'description'  => 	'Ajoute des endpoints à l\'API dolibarr pour cocamap'),
+	array('number' => '446252',			'name' => 'noforget',							'description'  => 	'Permet de faire penser à l(utilisateur de parler de certains produits'),
+	array('number' => '446253',			'name' => 'tooling',							'description'  => 	'Permet de gérer de l\'outillage pour AP Extrusion'),
+	array('number' => '446254',			'name' => 'productionline',						'description'  => 	'Permet de gérer les lignes de production pour AP Extrusion'),
+	array('number' => '446255',			'name' => 'lapala',								'description'  => 	'Ajoute des actions propres à AP Extrusion/Lapala'),
 
 
 	/*AUTRES et ANOMALIES*/
