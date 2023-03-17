@@ -141,7 +141,8 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '446251',			'name' => 'contactcategories',						'description'  => 	'Ajoute des endpoints à l\'API dolibarr pour cocamap'),
 	array('number' => '446252',			'name' => 'noforget',							'description'  => 		'Permet de faire penser à l(utilisateur de parler de certains produits'),
 	array('number' => '446253',			'name' => 'tooling',							'description'  => 		'Permet de gérer de l\'outillage pour AP Extrusion'),
-	array('number' => '446254',			'name' => 'productionline',							'description'  => 		'Permet de gérer les lignes de production pour AP Extrusion),
+	array('number' => '446254',			'name' => 'productionline',							'description'  => 		'Permet de gérer les lignes de production pour AP Extrusion'),
+	array('number' => '446255',			'name' => 'vacscol',							'description'  => 		'Permet d\'enregsitrer les vacances scolaires),
 
 
 	/*AUTRES et ANOMALIES*/
