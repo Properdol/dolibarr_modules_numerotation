@@ -145,7 +145,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '446255',			'name' => 'vacscol',								'description'  => 		'Permet d\'enregsitrer les vacances scolaires'),
 	array('number' => '446256',			'name' => 'territoire',								'description'  => 		'Permet d\'afficher les territoires liés au tier'),
 	array('number' => '446257',			'name' => 'userautosign',							'description'  => 		'Permet de créer des modèles de signature et de les appliquer en masse aux utilisateurs'),
-	array('number' => '446258',			'name' => 'majscol',								'description'  => 		'Permet de mettre à jour les informations d\'un tiers'),
+	array('number' => '446258',			'name' => 'majscol',								'description'  => 		'Permet de mettre à jour les informations d\'un tiers établissement scolaire'),
 	array('number' => '446259',			'name' => 'contactchange',							'description'  => 		'Permet de rattacher un contact à un autre tiers'),
 	
 	/*AUTRES et ANOMALIES*/
