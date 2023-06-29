@@ -115,36 +115,42 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '446221',			'name' => 'notes in edit',							'description'  => 	'Affiche les notes dans un toggle depuis les objets'),
 	array('number' => '446222',			'name' => 'quick event',							'description'  => 	'Evenement rapide, stage antoine humbert 2020'),
 	array('number' => '446223',			'name' => 'tutoriel',								'description'  => 	'Box avec lien ou vidéo pour documentation'),
-	array('number' => '446224',			'name' => 'propal to order',							'description'  => 	'Fusion de plusieurs devis en une seule commande, satage amadiss lemore 2020'),
-	array('number' => '446225',			'name' => '???',								'description'  => 	'??? stage amadiss lemore 2020'),
+	array('number' => '446224',			'name' => 'propal to order',						'description'  => 	'Fusion de plusieurs devis en une seule commande, satage amadiss lemore 2020'),
+	array('number' => '446225',			'name' => '???',									'description'  => 	'??? stage amadiss lemore 2020'),
 	array('number' => '446226',			'name' => 'BC liste',								'description'  => 	'Liens de menu filtré sur les tranches stage amadiss lemore 2020'),
-	array('number' => '446227',			'name' => 'adresse livraison indépendante',					'description'  => 	'Adresse livraison indépendante, stage amadiss lemore 2020'),
+	array('number' => '446227',			'name' => 'adresse livraison indépendante',			'description'  => 	'Adresse livraison indépendante, stage amadiss lemore 2020'),
 	array('number' => '446228',			'name' => 'txt for pdf',							'description'  => 	'Dictionnaire utilisé pour afficher des textes sur les commandes pdf'),
 	array('number' => '446229',			'name' => 'product info',							'description'  => 	'Affiche les informations d\'une produit dans une infobulle sur les devis et les commandes'),
 	
-	array('number' => '446230',			'name' => 'commande liste plus',						'description'  => 	'Ajoute des colonnes sur la liste des commandes'),
+	array('number' => '446230',			'name' => 'commande liste plus',					'description'  => 	'Ajoute des colonnes sur la liste des commandes'),
 	array('number' => '446231',			'name' => 'pdf message',							'description'  => 	'Ajoute un message sur le pdf'),
 	array('number' => '446232',			'name' => 'dpt auto',								'description'  => 	'Trigger pour remplir automatiquement le département du tiers depuis le code postal'),
-	array('number' => '446233',			'name' => 'propal commercial verif'						'description'  => 	'Vérifie si tva et prix achat sont présens sur chaque ligne sinon affiche message'),
-	array('number' => '446234',			'name' => 'autoliquidationIC TVA',						'description'  => 	'Autoliquidation TVA IC'),
-	array('number' => '446235',			'name' => 'SAV',								'description'  => 	'Gestion des SAV sur les tranches LDM'),
+	array('number' => '446233',			'name' => 'propal commercial verif'					'description'  => 	'Vérifie si tva et prix achat sont présens sur chaque ligne sinon affiche message'),
+	array('number' => '446234',			'name' => 'autoliquidationIC TVA',					'description'  => 	'Autoliquidation TVA IC'),
+	array('number' => '446235',			'name' => 'SAV',									'description'  => 	'Gestion des SAV sur les tranches LDM'),
 	array('number' => '446236',			'name' => 'don plus',								'description'  => 	'Modele pdf de reçu fiscal pdf'),
 	array('number' => '446237',			'name' => 'fourniprice',							'description'  => 	'Mise à jour des prix fournisseur et clients depuis un tableau excel'),
 	array('number' => '446238',			'name' => 'bloquerclient',							'description'  => 	'Bloquer un client même si encours ok'),
 	array('number' => '446239',			'name' => 'recap v+',								'description'  => 	'Exporter ds un tableau xls les produits vestiaire+'),
 	
-	array('number' => '446240',			'name' => 'do or not',							'description'  => 	'Check list pour dolibarr (pas développé pour le moment, juste débuté)'),
-	array('number' => '446241',			'name' => 'recap devis',						'description'  => 	'Statistiques supplémentaires sur les devis'),
-	array('number' => '446242',			'name' => 'toxls',								'description'  => 	'Export de la commande et du devis au format .xls (pour sage)'),
+	array('number' => '446240',			'name' => 'do or not',								'description'  => 	'Check list pour dolibarr (pas développé pour le moment, juste débuté)'),
+	array('number' => '446241',			'name' => 'recap devis',							'description'  => 	'Statistiques supplémentaires sur les devis'),
+	array('number' => '446242',			'name' => 'toxls',									'description'  => 	'Export de la commande et du devis au format .xls (pour sage)'),
 	
+
+
 	array('number' => '446250',			'name' => 'recapmarge',							'description'  => 	'Affiche la répartition de la marge sur les devis et les commandes, remplace recapFTPN'),
 	array('number' => '446251',			'name' => 'contactcategories',					'description'  => 	'Ajoute des endpoints à l\'API dolibarr pour cocamap'),
 	array('number' => '446252',			'name' => 'noforget',							'description'  => 	'Permet de faire penser à l(utilisateur de parler de certains produits'),
 	array('number' => '446253',			'name' => 'tooling',							'description'  => 	'Permet de gérer de l\'outillage pour AP Extrusion'),
 	array('number' => '446254',			'name' => 'productionline',						'description'  => 	'Permet de gérer les lignes de production pour AP Extrusion'),
 	array('number' => '446255',			'name' => 'lapala',								'description'  => 	'Ajoute des actions propres à AP Extrusion/Lapala'),
-
-
+	array('number' => '446255',			'name' => 'vacscol //Attention à renuméroter',								'description'  => 		'Permet d\'enregsitrer les vacances scolaires'),
+	array('number' => '446256',			'name' => 'territoire',								'description'  => 		'Permet d\'afficher les territoires liés au tier'),
+	array('number' => '446257',			'name' => 'userautosign',							'description'  => 		'Permet de créer des modèles de signature et de les appliquer en masse aux utilisateurs'),
+	array('number' => '446258',			'name' => 'majscol',								'description'  => 		'Permet de mettre à jour les informations d\'un tiers établissement scolaire'),
+	array('number' => '446259',			'name' => 'contactchange',							'description'  => 		'Permet de rattacher un contact à un autre tiers'),
+	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
 
