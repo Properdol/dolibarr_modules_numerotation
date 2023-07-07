@@ -151,7 +151,8 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '446258',			'name' => 'majscol',								'description'  => 		'Permet de mettre à jour les informations d\'un tiers établissement scolaire'),
 	array('number' => '446259',			'name' => 'contactchange',							'description'  => 		'Permet de rattacher un contact à un autre tiers'),
 	array('number' => '446260',			'name' => 'specialsubstitution',					'description'  => 		'Permet d\'ajouter des variables de substitutions spécifiques pour les modèles de courriel. réalisé à la base pour loisirs développement/lapala'),
-	array('number' => '446261',			'name' => 'pdfselected',					'description'  => 		'Force un modèle de commande et de facture aux pros et aux particuliers),
+	array('number' => '446261',			'name' => 'pdfselected',							'description'  => 		'Force un modèle de commande et de facture aux pros et aux particuliers'),
+	array('number' => '446262',			'name' => 'contactautomaisonmere',					'description'  => 		'Ajoute la maison mère du tiers comme contact de facturation sur les commandes.'),
 	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
