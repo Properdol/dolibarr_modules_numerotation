@@ -153,6 +153,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '446260',			'name' => 'specialsubstitution',					'description'  => 		'Permet d\'ajouter des variables de substitutions spécifiques pour les modèles de courriel. réalisé à la base pour loisirs développement/lapala'),
 	array('number' => '446261',			'name' => 'pdfselected',							'description'  => 		'Force un modèle de commande et de facture aux pros et aux particuliers'),
 	array('number' => '446262',			'name' => 'contactautomaisonmere',					'description'  => 		'Ajoute la maison mère du tiers comme contact de facturation sur les commandes.'),
+	array('number' => '446263',			'name' => 'catalogxls',								'description'  => 		'Génère un catalogue de produits excel à partir d\'une categorie de produits et par tiers'),
 	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
