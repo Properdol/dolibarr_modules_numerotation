@@ -83,7 +83,6 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '446169',			'name' => 'defaut recherche',						'	description'  => 	'Permet de préciser où chercher par défaut'),
 	
 	array('number' => '446170',			'name' => 'onboarding',								'description'  => 	'onboarding pour app mobile citique'),
-	array('number' => '446171',			'name' => 'veriflog',								'description'  => 	' vérifier si l\'utilisateur connecté peut accéder au panel Dolibarr, DOUBLON NUMERO'),
 	array('number' => '446171',			'name' => 'mise à plat devis',							'description'  => 	'Remet au prix catalogue un devis'),
 	array('number' => '446172',			'name' => 'produits définitifs',						'description'  => 	'Remplacer un produit par des déclinaisons à la validation de la commande'),
 	array('number' => '446180',			'name' => 'chargement',								'description'  => 	'Gestion des chargements pour STV Carrière'),
@@ -157,6 +156,7 @@ $dolibarr_modules_numerotation = array(
 	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
+	array('number' => '496171',			'name' => 'veriflog',								'description'  => 	' vérifier si l\'utilisateur connecté peut accéder au panel Dolibarr, DOUBLON NUMERO'), // Passer sur numéro mikael
 
 );
 
