@@ -153,6 +153,8 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '446261',			'name' => 'pdfselected',							'description'  => 		'Force un modèle de commande et de facture aux pros et aux particuliers'),
 	array('number' => '446262',			'name' => 'contactautomaisonmere',					'description'  => 		'Ajoute la maison mère du tiers comme contact de facturation sur les commandes.'),
 	array('number' => '446263',			'name' => 'catalogxls',								'description'  => 		'Génère un catalogue de produits excel à partir d\'une categorie de produits et par tiers'),
+	array('number' => '446264',			'name' => 'manutan',								'description'  => 		'Facilite la saisie des commandes Manutan pour LDM'),
+	array('number' => '446265',			'name' => 'nuancier',								'description'  => 		'Permet la gestion d\'un nuancier sous forme de dictionnaire'),
 	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
