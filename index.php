@@ -155,6 +155,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '446263',			'name' => 'catalogxls',								'description'  => 		'Génère un catalogue de produits excel à partir d\'une categorie de produits et par tiers'),
 	array('number' => '446264',			'name' => 'manutan',								'description'  => 		'Facilite la saisie des commandes Manutan pour LDM'),
 	array('number' => '446265',			'name' => 'nuancier',								'description'  => 		'Permet la gestion d\'un nuancier sous forme de dictionnaire'),
+	array('number' => '446266',			'name' => 'dolishop_gs',							'description'  => 		'Permet la création d\'un flux pour google shopping'),
 	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
