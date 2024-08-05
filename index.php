@@ -157,9 +157,10 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '446265',			'name' => 'nuancier',								'description'  => 		'Permet la gestion d\'un nuancier sous forme de dictionnaire'),
 	array('number' => '446266',			'name' => 'dolishop_gs',							'description'  => 		'Permet la création d\'un flux pour google shopping'),
 	array('number' => '446267',			'name' => 'serialnumber',							'description'  => 		'Affiche les numéros de série d\'une commande sur une page supplémentaire de la faccture. Les numéros de série proviennent d\'un extrafield'),
-	array('number' => '446268',			'name' => 'outofstock',							'description'  => 		'Permet de réaliser des sorties de stock depuis une commande client'),
-	array('number' => '',			'name' => 'stv_formulaire',							'description'  => 		'fork du module formulaire citique pour suivi production stv'),
-	array('number' => '',			'name' => 'stv_signalement',							'description'  => 		'fork du module signalement citique pour suivi production stv'),
+	array('number' => '446268',			'name' => 'outofstock',								'description'  => 		'Permet de réaliser des sorties de stock depuis une commande client'),
+	array('number' => '446269',			'name' => 'stockentry',								'description'  => 		'Permet de réaliser des entrées de stock depuis une commande client'),
+	array('number' => '',				'name' => 'stv_formulaire',							'description'  => 		'fork du module formulaire citique pour suivi production stv'),
+	array('number' => '',				'name' => 'stv_signalement',						'description'  => 		'fork du module signalement citique pour suivi production stv'),
 	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
