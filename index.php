@@ -161,6 +161,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '446269',			'name' => 'stockentry',								'description'  => 		'Permet de réaliser des entrées de stock depuis une commande client'),
 	array('number' => '446270',			'name' => 'previfac',								'description'  => 		'Gère un prévisionnel de facturation pour les commandes clients'),
 	array('number' => '446271',			'name' => 'trigger_special',						'description'  => 		'Gère des triggers particuliers pour Loisirs Développement'),
+	array('number' => '446272',			'name' => 'precompta',								'description'  => 		'Facilite la précompta dans dolibarr'),
 
 	array('number' => '',				'name' => 'stv_formulaire',							'description'  => 		'fork du module formulaire citique pour suivi production stv'),
 	array('number' => '',				'name' => 'stv_signalement',						'description'  => 		'fork du module signalement citique pour suivi production stv'),
