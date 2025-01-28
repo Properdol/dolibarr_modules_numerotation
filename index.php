@@ -163,6 +163,8 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '446271',			'name' => 'trigger_special',						'description'  => 		'Gère des triggers particuliers pour Loisirs Développement'),
 	array('number' => '446272',			'name' => 'precompta',								'description'  => 		'Facilite la précompta dans dolibarr'),
 	array('number' => '446273',			'name' => 'numerotation',							'description'  => 		'Module de numérotation de facture avec Prefix et Suffix et numéro unique pour tous les types de facture'),
+	array('number' => '4462734',		'name' => 'socupdate',								'description'  => 		'PAS DEV / SIRENE EASY FAIT LE JOB / Met à jour les informations manquantes des societés'),
+	array('number' => '4462735',		'name' => 'suivih',									'description'  => 		'Enregsitre un suivi horaire dans les projets depuis le module questionnaire'),
 
 	array('number' => '',				'name' => 'stv_formulaire',							'description'  => 		'fork du module formulaire citique pour suivi production stv'),
 	array('number' => '',				'name' => 'stv_signalement',						'description'  => 		'fork du module signalement citique pour suivi production stv'),
