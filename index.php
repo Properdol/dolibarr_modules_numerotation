@@ -167,6 +167,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462735',		'name' => 'suivih',									'description'  => 		'Enregsitre un suivi horaire dans les projets depuis le module questionnaire'),
 	array('number' => '4462736',		'name' => 'fillator',								'description'  => 		'Permet de remplir des formulaires pdf'),
 	array('number' => '4462737',		'name' => 'automentiontva',							'description'  => 		'Ajoute une mention selon les taux de tva présents sur le document'),
+	array('number' => '4462738',		'name' => 'quickrelance',							'description'  => 		'Ajoute des colonnes dans la liste des devis pour des actions rapides de relance'),
 	
 	array('number' => '',				'name' => 'stv_formulaire',							'description'  => 		'fork du module formulaire citique pour suivi production stv'),
 	array('number' => '',				'name' => 'stv_signalement',						'description'  => 		'fork du module signalement citique pour suivi production stv'),
