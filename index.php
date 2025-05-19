@@ -168,6 +168,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462736',		'name' => 'fillator',								'description'  => 		'Permet de remplir des formulaires pdf'),
 	array('number' => '4462737',		'name' => 'automentiontva',							'description'  => 		'Ajoute une mention selon les taux de tva présents sur le document'),
 	array('number' => '4462738',		'name' => 'quickrelance',							'description'  => 		'Ajoute des colonnes dans la liste des devis pour des actions rapides de relance'),
+	array('number' => '4462739',		'name' => 'debugiou',								'description'  => 		'Affiche le debug php pour un utilisateur ou un autre'),
 	
 	array('number' => '',				'name' => 'stv_formulaire',							'description'  => 		'fork du module formulaire citique pour suivi production stv'),
 	array('number' => '',				'name' => 'stv_signalement',						'description'  => 		'fork du module signalement citique pour suivi production stv'),
