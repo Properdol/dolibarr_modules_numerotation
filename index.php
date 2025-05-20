@@ -170,6 +170,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462738',		'name' => 'quickrelance',							'description'  => 		'Ajoute des colonnes dans la liste des devis pour des actions rapides de relance'),
 	array('number' => '4462739',		'name' => 'debugiou',								'description'  => 		'Affiche le debug php pour un utilisateur ou un autre'),
 	array('number' => '4462740',		'name' => 'importblock',							'description'  => 		'Permet d\importer des blocks de mesure pour CVM France'),
+	array('number' => '4462741',		'name' => 'rep',									'description'  => 		'Gère la REP (Responsabilité élargie des producteurs)'),
 	
 	array('number' => '',				'name' => 'stv_formulaire',							'description'  => 		'fork du module formulaire citique pour suivi production stv'),
 	array('number' => '',				'name' => 'stv_signalement',						'description'  => 		'fork du module signalement citique pour suivi production stv'),
