@@ -160,6 +160,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '446268',			'name' => 'outofstock',								'description'  => 		'Permet de réaliser des sorties de stock depuis une commande client'),
 	array('number' => '446269',			'name' => 'stockentry',								'description'  => 		'Permet de réaliser des entrées de stock depuis une commande client'),
 	array('number' => '446270',			'name' => 'previfac',								'description'  => 		'Gère un prévisionnel de facturation pour les commandes clients'),
+	array('number' => '446270',			'name' => 'taskauto',								'description'  => 		'Permet de créer des tâches automatiquement à la validation d\'un projet'),
 	array('number' => '446271',			'name' => 'trigger_special',						'description'  => 		'Gère des triggers particuliers pour Loisirs Développement'),
 	array('number' => '446272',			'name' => 'precompta',								'description'  => 		'Facilite la précompta dans dolibarr'),
 	array('number' => '446273',			'name' => 'numerotation',							'description'  => 		'Module de numérotation de facture avec Prefix et Suffix et numéro unique pour tous les types de facture'),
@@ -172,7 +173,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462740',		'name' => 'importblock',							'description'  => 		'Permet d\importer des blocks de mesure pour CVM France'),
 	array('number' => '4462741',		'name' => 'rep',									'description'  => 		'Gère la REP (Responsabilité élargie des producteurs)'),
 	array('number' => '4462742',		'name' => 'rapbymail',								'description'  => 		'Génère et envoit un rapport sur les facture impayés, par mail'),
-	
+	array('number' => '4462743',		'name' => 'pingstats',								'description'  => 		'Ajoute un attribut ping sur tous les liens de dolibarr pour faire un suivi sur les liens'),
 	array('number' => '',				'name' => 'stv_formulaire',							'description'  => 		'fork du module formulaire citique pour suivi production stv'),
 	array('number' => '',				'name' => 'stv_signalement',						'description'  => 		'fork du module signalement citique pour suivi production stv'),
 	
