@@ -174,6 +174,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462741',		'name' => 'rep',									'description'  => 		'Gère la REP (Responsabilité élargie des producteurs)'),
 	array('number' => '4462742',		'name' => 'rapbymail',								'description'  => 		'Génère et envoit un rapport sur les facture impayés, par mail'),
 	array('number' => '4462743',		'name' => 'pingstats',								'description'  => 		'Ajoute un attribut ping sur tous les liens de dolibarr pour faire un suivi sur les liens'),
+	array('number' => '4462744',		'name' => 'pdfstop',								'description'  => 		'Stop la création du pdf selon des critères'),
 	array('number' => '',				'name' => 'stv_formulaire',							'description'  => 		'fork du module formulaire citique pour suivi production stv'),
 	array('number' => '',				'name' => 'stv_signalement',						'description'  => 		'fork du module signalement citique pour suivi production stv'),
 	
