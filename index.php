@@ -176,6 +176,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462743',		'name' => 'pingstats',								'description'  => 		'Ajoute un attribut ping sur tous les liens de dolibarr pour faire un suivi sur les liens'),
 	array('number' => '4462744',		'name' => 'pdfstop',								'description'  => 		'Stop la création du pdf selon des critères'),
 	array('number' => '4462745',		'name' => 'autonotes',								'description'  => 		'Ajoute une note publique automatiquement'),
+	array('number' => '4462746',		'name' => 'ofplus',									'description'  => 		'Ajoute des éléments pour faciliter les OF (cvm plesnois)'),
 	array('number' => '',				'name' => 'stv_formulaire',							'description'  => 		'fork du module formulaire citique pour suivi production stv'),
 	array('number' => '',				'name' => 'stv_signalement',						'description'  => 		'fork du module signalement citique pour suivi production stv'),
 	
