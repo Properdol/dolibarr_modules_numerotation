@@ -178,6 +178,8 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462745',		'name' => 'autonotes',								'description'  => 		'Ajoute une note publique automatiquement'),
 	array('number' => '4462746',		'name' => 'ofplus',									'description'  => 		'Ajoute des éléments pour faciliter les OF (cvm plesnois)'),
 	array('number' => '4462747',		'name' => 'monday',									'description'  => 		'Connecteur monday stv ppv'),
+	array('number' => '4462748',		'name' => 'newclient',								'description'  => 		'Indique la date de signature du premier devis pour suivre l\'évolution des nouveaux client'),
+	array('number' => '4462749',		'name' => 'odtmore',								'description'  => 		'Ajoute des tags supplémentaires pour les templates odt'),
 	
 	array('number' => '',				'name' => 'stv_formulaire',							'description'  => 		'fork du module formulaire citique pour suivi production stv'),
 	array('number' => '',				'name' => 'stv_signalement',						'description'  => 		'fork du module signalement citique pour suivi production stv'),
