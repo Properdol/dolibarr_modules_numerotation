@@ -1,0 +1,190 @@
+<?php
+
+/**
+ * DOLIBARR NUMEROTATION MODULES
+ *
+ * 
+ * Ce fichier recence les numéros affectés aux modules édités pour iouston
+ * Le segment de numéros attribués à iouston est de 446000 à 446999
+ * Plus d'information sur https://wiki.dolibarr.org/index.php/List_of_modules_id
+ * 
+ */
+	
+$dolibarr_modules_numerotation = array(	
+    /*446 100*/
+	array('number' => '446001',			'name' => 'import propal line',							'description'  =>   'Importe des lignes de devis depuis excel'),
+	array('number' => '446101',			'name' => 'poids total',							'description'  =>   'Indique un poids total calculer ou arbitraire sur les devis et les commandes'),
+	array('number' => '446102',			'name' => 'prix moyen par catégorie',						'description'  =>   'Indique un nombre d\élement sur un devis pour une ou pls categorie de produit'),
+	array('number' => '446103',			'name' => 'frais de transport',							'description'  =>   'Calcule les frais de port sur devis, commande et facture'),
+	array('number' => '446104',			'name' => 'prix masse',								'description'  =>   'Permet de gérer des réductions ou des prix cibles'),
+	array('number' => '446105',			'name' => 'commercial par département',						'description'  =>   'Permet d\'attribuer des départements à un utilisateur pouyr affectation automatique des clients de ce dpt'),
+	array('number' => '446106',			'name' => 'afficher marge',							'description'  =>   'Permet d\'afficher / masquer la marge'),
+    array('number' => '446107',			'name' => 'saisie devis',								'description'  =>   'Ajoute des options de saisie sur les devis'),
+    array('number' => '446108',			'name' => 'export commande',								'description'  =>   'Ajoute un export avec des champs supplémentaires sur la commande'),
+    array('number' => '446109',			'name' => 'couleur devis',								'description'  =>   'Ajoute option de mise en page sur les devis'),
+    
+    array('number' => '446110',			'name' => 'facture situation',								'description'  =>   'Modèle pdf pour les factures de situation'),
+    array('number' => '446110',			'name' => 'adherent multiple',								'description'  =>   'NUMERO NOM CONFORME, DOUBLON, permet de lier plusieurs adhérent à un tiers'),
+    array('number' => '446111',			'name' => 'modele contrat automatique',							'description'  =>   'affiche sur le pdf des contrats les extrafiels existants'),
+    array('number' => '446112',			'name' => 'autoliquidation tva',							'description'  => 	'permet de gérer l\'autoliquidation de TVA sous traitance'),
+	array('number' => '446113',			'name' => 'avenant devis',							'description'  => 	'ajoute des avenants à un devis (plus utile depuis sous total)'),
+	array('number' => '446114',			'name' => 'encours client',							'description'  => 	'affiche l\'encours des clients'),
+	array('number' => '446115',			'name' => '???',								'description'  =>   '???'),
+	array('number' => '446116',			'name' => 'gestion production',							'description'  =>   'information supplémentaires pour les commandes LDM'),
+	array('number' => '446117',			'name' => 'tranches',								'description'  =>   'gestion de tranches sur les commandes (LDM)'),
+	array('number' => '446118',			'name' => 'planning général',							'description'  =>   'affiche planning kanban à partir des tranches (LDM)'),
+	array('number' => '446119',			'name' => 'fabrication tranche',						'description'  =>   'gère la fabrication des tranches en atelier (LDM)'),
+	
+	array('number' => '446120',			'name' => 'consommation',							'description'  =>   'Consommation prévisionnelle et réelles par tranches (LDM)'),
+	array('number' => '446121',			'name' => 'attestation TVA',							'description'  =>   'génère attestation TVA 5.5% renovation'),
+	array('number' => '446122',			'name' => 'mrp',								'description'  =>   'Gestion des MRP pour LDM'),
+	array('number' => '446123',			'name' => 'automicroentreprise',									'description'  =>   '???'),
+	array('number' => '446124',			'name' => 'acompte rapide'							'description'  =>   'Permet de saisir rapidement un acompte'),
+	array('number' => '446125',			'name' => '???',								'description'  =>   '???'),
+	array('number' => '446126',			'name' => 'planning général',							'description'  =>   'affiche planning kanban à partir des tranches (LDM) DOUBLON AVEC 446118 ?'),
+	array('number' => '446128',			'name' => 'remise globale',							'description'  => 	'Calcule et affiche la remise globale sur devis et commande'),
+	
+	array('number' => '446130',			'name' => 'signalement',							'description'  =>   'Gestion des signalement pour citique'),
+	array('number' => '446132',			'name' => 'envoi',									'description'  =>   'Gestion des envois pour citique'),
+	array('number' => '446133',			'name' => 'echantillon',							'description'  =>   'Gestion des echantillons pour citique'),
+	array('number' => '446134',			'name' => 'formulaire',								'description'  =>   'Gestion formulaires pour citique'),
+	array('number' => '446135',			'name' => 'optionsdevis',							'description'  =>   'Gestion des options pour les devis LDM '),
+	array('number' => '446136',			'name' => 'acompte avance',							'description'  => 	'Permet la gestion des acomptes avancé'),
+	array('number' => '446136',			'name' => 'prix vente',								'description'  => 	'Permet de calculer le prix de vente à la volée '),
+	array('number' => '446137',			'name' => 'datamatrix',								'description'  =>   'Gestion es datamatrix pour échantillon citique'),
+	array('number' => '446138',			'name' => 'commission agent',							'description'  =>   'Calcule la commission d\'un agent sur une facture'),
+	array('number' => '446139',			'name' => 'prévisionnel facturation',						'description'  =>   'Permet de générer un prévisionnel de facturation'),
+	
+	array('number' => '446140',			'name' => 'resultat',								'description'  =>   'Permet de gérer les résultats pour citique'),
+	array('number' => '446141',			'name' => 'suivi',								'description'  =>   'Permet de gérer le suivi des échantillons pour citique'),
+	array('number' => '446142',			'name' => 'etat commission',							'description'  =>   'Récapitulatif mensuel des commissions d\'agent'),
+	array('number' => '446144',			'name' => 'information',							'description'  => 	'gestion des informations pour citique'),
+	array('number' => '446145',			'name' => 'profil',								'description'  =>   'Permet de gérer des profils par utilisateur pour citique'),
+	array('number' => '446146',			'name' => 'alerte',								'description'  =>   'Permet de gérer les alertes depuis tiquotheque'),
+	array('number' => '446147',			'name' => 'collapse sous total',						'description'  => 	'Permet de plier/déplier les sous totaux ATM, plus utilisé DOUBLON AVEC DIOCESE'),
+	array('number' => '446147',			'name' => 'diocese',								'description'  =>   'Permet de gérer les dioceses dans deoriom'),	
+	array('number' => '446148',			'name' => 'paroisse',								'description'  =>   'Permet de gérer les paroisses dans deoriom'),
+	
+	array('number' => '446152',			'name' => 'quick edit product',							'description'  =>   'modification rapide des informations produits depuis liste'),
+	array('number' => '446153',			'name' => 'intention',								'description'  =>   'Gestion des intentions pour deoriom'),
+	array('number' => '446155',			'name' => 'analyse activite',							'description'  => 	'Analyse activite par catégorie'),
+	array('number' => '446156',			'name' => 'etiquette',								'description'  => 	'Modele pdf étiquette horticole'),
+	array('number' => '446157',			'name' => 'preparation',							'description'  => 	'Optimise la préparation des commandes pour rougieux'),
+	array('number' => '446158',			'name' => 'prix masse categorie',						'description'  =>   'Gestion augmentations de prix par catégorie'),
+	array('number' => '446159',			'name' => 'versiondevis',							'description'  =>   'Gestion des versions sur les devis'),
+	
+	array('number' => '446160',			'name' => 'sous total',								'description'  =>   'Gestion des sous totaux sur devis/commande/facture'),
+	array('number' => '446162',			'name' => 'acl',								'description'  =>   'ACL pour dolibarr'),
+	array('number' => '446164',			'name' => 'portail adhérent',							'description'  =>   'Permet de retrouver la liste de ses cotisations et de télécharger sa carte de membre'),
+	array('number' => '446165',			'name' => 'emailing adhérent',							'description'  => 	'Module complémentaire d\'emailing pour les adhérents'),
+	array('number' => '446166',			'name' => 'carte membre',							'description'  => 	'Offre un modèle de courrier avec carte de membre'),
+	array('number' => '446167',			'name' => 'formulaire fabrication',						'description'  => 	'Formulaire fabrication LDM'),
+	array('number' => '446168',			'name' => 'export signalement',							'description'  => 	'Permet d\'exporter les photos des signalements'),
+	array('number' => '446169',			'name' => 'defaut recherche',						'	description'  => 	'Permet de préciser où chercher par défaut'),
+	
+	array('number' => '446170',			'name' => 'onboarding',								'description'  => 	'onboarding pour app mobile citique'),
+	array('number' => '446171',			'name' => 'mise à plat devis',							'description'  => 	'Remet au prix catalogue un devis'),
+	array('number' => '446172',			'name' => 'produits définitifs',						'description'  => 	'Remplacer un produit par des déclinaisons à la validation de la commande'),
+	array('number' => '446180',			'name' => 'chargement',								'description'  => 	'Gestion des chargements pour STV Carrière'),
+	array('number' => '446180',			'name' => 'recap marge',							'description'  => 	'Gestion des chargements pour STV Carrière'),
+
+	/*446 200	*/
+	array('number' => '446201',			'name' => 'plan formation',							'description'  => 	'Un module pour gérer un plan de formation simple'),
+	array('number' => '446202',			'name' => 'tel format',								'description'  => 	'Alerte si doublons sur le numéro de téléphone, permet de nettoyer le numéro avant insertion en base et/ou dans toute la base'),
+	array('number' => '446203',			'name' => 'export commande detail',						'description'  => 	'Export dolibarr avec plus de champs pour les commandes'),
+	array('number' => '446204',			'name' => 'expeditioncopy',							'description'  => 	'Copie des informations vers un logiciel tiers pour geodis (plus utilisé)'),
+	array('number' => '446205',			'name' => 'archivage document',							'description'  => 	'Supprime les pdf et les PJ depuis ue date donnée pour les devis'),
+	array('number' => '446206',			'name' => 'map stat',								'description'  => 	'Stats sous forme de carte pour devis / commande / facture'),
+	array('number' => '446207',			'name' => 'frais auto',								'description'  => 	'Ajoute un ou plusieurs produits automatiquement selon un seuil sur devis commandes facture'),
+	array('number' => '446208',			'name' => 'import encours client',						'description'  => 	'Ajoute un import dolibarr pour importer des encoursclients, À REMETTRE DANS MODULE ENCOURS CLIENT'),
+	array('number' => '446209',			'name' => 'recapFTPN',								'description'  => 	'Récap Fourniture Transport Négoce, remplacé par RECAP MARGE'),
+	
+	array('number' => '446210',			'name' => 'commercial objectif',						'description'  => 	'Affecter un objectf à un commercial par département'),
+	array('number' => '446211',			'name' => 'autotva domtom',							'description'  => 	'Taux de tva automatique pour les dom tom et les mentions associées'),
+	array('number' => '446212',			'name' => 'clone entre entité',							'description'  => 	'Fait un clone entre deux entité dolibarr via multisoc'),
+	array('number' => '446213',			'name' => 'special mass action citique',					'description'  => 	'Ajoute des actions de masses propre à citique'),
+	array('number' => '446214',			'name' => 'planning pose',							'description'  => 	'Planning pose LDM'),
+	array('number' => '446215',			'name' => 'dashboard menu',							'description'  => 	'Affiche un menu d\icone sur la home'),
+	array('number' => '446216',			'name' => 'planning be',							'description'  => 	'Affiche les tranches pour la gestion par le BE LDM'),
+	array('number' => '446217',			'name' => 'quick edit propale',							'description'  => 	'Edite les propales rapidement. WORKS ?'),
+	array('number' => '446218',			'name' => 'propales stats avancées ???',					'description'  => 	'WORKS ? WHERE IS IT ?'),
+	array('number' => '446219',			'name' => 'propale liste plus',							'description'  => 	'Ajoute des colonnes sur liste propales LDM'),
+	
+	array('number' => '446220',			'name' => 'reputation',								'description'  => 	'Calcule la réputation d\'un client'),
+	array('number' => '446221',			'name' => 'notes in edit',							'description'  => 	'Affiche les notes dans un toggle depuis les objets'),
+	array('number' => '446222',			'name' => 'quick event',							'description'  => 	'Evenement rapide, stage antoine humbert 2020'),
+	array('number' => '446223',			'name' => 'tutoriel',								'description'  => 	'Box avec lien ou vidéo pour documentation'),
+	array('number' => '446224',			'name' => 'propal to order',						'description'  => 	'Fusion de plusieurs devis en une seule commande, satage amadiss lemore 2020'),
+	array('number' => '446225',			'name' => '???',									'description'  => 	'??? stage amadiss lemore 2020'),
+	array('number' => '446226',			'name' => 'BC liste',								'description'  => 	'Liens de menu filtré sur les tranches stage amadiss lemore 2020'),
+	array('number' => '446227',			'name' => 'adresse livraison indépendante',			'description'  => 	'Adresse livraison indépendante, stage amadiss lemore 2020'),
+	array('number' => '446228',			'name' => 'txt for pdf',							'description'  => 	'Dictionnaire utilisé pour afficher des textes sur les commandes pdf'),
+	array('number' => '446229',			'name' => 'product info',							'description'  => 	'Affiche les informations d\'une produit dans une infobulle sur les devis et les commandes'),
+	
+	array('number' => '446230',			'name' => 'commande liste plus',					'description'  => 	'Ajoute des colonnes sur la liste des commandes'),
+	array('number' => '446231',			'name' => 'pdf message',							'description'  => 	'Ajoute un message sur le pdf'),
+	array('number' => '446232',			'name' => 'dpt auto',								'description'  => 	'Trigger pour remplir automatiquement le département du tiers depuis le code postal'),
+	array('number' => '446233',			'name' => 'propal commercial verif'					'description'  => 	'Vérifie si tva et prix achat sont présens sur chaque ligne sinon affiche message'),
+	array('number' => '446234',			'name' => 'autoliquidationIC TVA',					'description'  => 	'Autoliquidation TVA IC'),
+	array('number' => '446235',			'name' => 'SAV',									'description'  => 	'Gestion des SAV sur les tranches LDM'),
+	array('number' => '446236',			'name' => 'don plus',								'description'  => 	'Modele pdf de reçu fiscal pdf'),
+	array('number' => '446237',			'name' => 'fourniprice',							'description'  => 	'Mise à jour des prix fournisseur et clients depuis un tableau excel'),
+	array('number' => '446238',			'name' => 'bloquerclient',							'description'  => 	'Bloquer un client même si encours ok'),
+	array('number' => '446239',			'name' => 'recap v+',								'description'  => 	'Exporter ds un tableau xls les produits vestiaire+'),
+	
+	array('number' => '446240',			'name' => 'do or not',								'description'  => 	'Check list pour dolibarr (pas développé pour le moment, juste débuté)'),
+	array('number' => '446241',			'name' => 'recap devis',							'description'  => 	'Statistiques supplémentaires sur les devis'),
+	array('number' => '446242',			'name' => 'toxls',									'description'  => 	'Export de la commande et du devis au format .xls (pour sage)'),
+	
+
+
+	array('number' => '446250',			'name' => 'recapmarge',								'description'  => 	'Affiche la répartition de la marge sur les devis et les commandes, remplace recapFTPN'),
+	array('number' => '446251',			'name' => 'contactcategories',						'description'  => 	'Ajoute des endpoints à l\'API dolibarr pour cocamap'),
+	array('number' => '446252',			'name' => 'noforget',								'description'  => 	'Permet de faire penser à l(utilisateur de parler de certains produits'),
+	array('number' => '446253',			'name' => 'tooling',								'description'  => 	'Permet de gérer de l\'outillage pour AP Extrusion'),
+	array('number' => '446254',			'name' => 'productionline',							'description'  => 	'Permet de gérer les lignes de production pour AP Extrusion'),
+	array('number' => '446255',			'name' => 'lapala',									'description'  => 	'Ajoute des actions propres à AP Extrusion/Lapala'),
+	array('number' => '446255',			'name' => 'vacscol //Attention à renuméroter',								'description'  => 		'Permet d\'enregsitrer les vacances scolaires'),
+	array('number' => '446256',			'name' => 'territoire',								'description'  => 		'Permet d\'afficher les territoires liés au tier'),
+	array('number' => '446257',			'name' => 'userautosign',							'description'  => 		'Permet de créer des modèles de signature et de les appliquer en masse aux utilisateurs'),
+	array('number' => '446258',			'name' => 'majscol',								'description'  => 		'Permet de mettre à jour les informations d\'un tiers établissement scolaire'),
+	array('number' => '446259',			'name' => 'contactchange',							'description'  => 		'Permet de rattacher un contact à un autre tiers'),
+	array('number' => '446260',			'name' => 'specialsubstitution',					'description'  => 		'Permet d\'ajouter des variables de substitutions spécifiques pour les modèles de courriel. réalisé à la base pour loisirs développement/lapala'),
+	array('number' => '446261',			'name' => 'pdfselected',							'description'  => 		'Force un modèle de commande et de facture aux pros et aux particuliers'),
+	array('number' => '446262',			'name' => 'contactautomaisonmere',					'description'  => 		'Ajoute la maison mère du tiers comme contact de facturation sur les commandes.'),
+	array('number' => '446263',			'name' => 'catalogxls',								'description'  => 		'Génère un catalogue de produits excel à partir d\'une categorie de produits et par tiers'),
+	array('number' => '446264',			'name' => 'manutan',								'description'  => 		'Facilite la saisie des commandes Manutan pour LDM'),
+	array('number' => '446265',			'name' => 'nuancier',								'description'  => 		'Permet la gestion d\'un nuancier sous forme de dictionnaire'),
+	array('number' => '446266',			'name' => 'dolishop_gs',							'description'  => 		'Permet la création d\'un flux pour google shopping'),
+	array('number' => '446267',			'name' => 'serialnumber',							'description'  => 		'Affiche les numéros de série d\'une commande sur une page supplémentaire de la faccture. Les numéros de série proviennent d\'un extrafield'),
+	array('number' => '446268',			'name' => 'outofstock',								'description'  => 		'Permet de réaliser des sorties de stock depuis une commande client'),
+	array('number' => '446269',			'name' => 'stockentry',								'description'  => 		'Permet de réaliser des entrées de stock depuis une commande client'),
+	array('number' => '446270',			'name' => 'previfac',								'description'  => 		'Gère un prévisionnel de facturation pour les commandes clients'),
+	array('number' => '446270',			'name' => 'taskauto',								'description'  => 		'Permet de créer des tâches automatiquement à la validation d\'un projet'),
+	array('number' => '446271',			'name' => 'trigger_special',						'description'  => 		'Gère des triggers particuliers pour Loisirs Développement'),
+	array('number' => '446272',			'name' => 'precompta',								'description'  => 		'Facilite la précompta dans dolibarr'),
+	array('number' => '446273',			'name' => 'numerotation',							'description'  => 		'Module de numérotation de facture avec Prefix et Suffix et numéro unique pour tous les types de facture'),
+	array('number' => '4462734',		'name' => 'socupdate',								'description'  => 		'PAS DEV / SIRENE EASY FAIT LE JOB / Met à jour les informations manquantes des societés'),
+	array('number' => '4462735',		'name' => 'suivih',									'description'  => 		'Enregsitre un suivi horaire dans les projets depuis le module questionnaire'),
+	array('number' => '4462736',		'name' => 'fillator',								'description'  => 		'Permet de remplir des formulaires pdf'),
+	array('number' => '4462737',		'name' => 'automentiontva',							'description'  => 		'Ajoute une mention selon les taux de tva présents sur le document'),
+	array('number' => '4462738',		'name' => 'quickrelance',							'description'  => 		'Ajoute des colonnes dans la liste des devis pour des actions rapides de relance'),
+	array('number' => '4462739',		'name' => 'debugiou',								'description'  => 		'Affiche le debug php pour un utilisateur ou un autre'),
+	array('number' => '4462740',		'name' => 'importblock',							'description'  => 		'Permet d\importer des blocks de mesure pour CVM France'),
+	array('number' => '4462741',		'name' => 'rep',									'description'  => 		'Gère la REP (Responsabilité élargie des producteurs)'),
+	array('number' => '4462742',		'name' => 'rapbymail',								'description'  => 		'Génère et envoit un rapport sur les facture impayés, par mail'),
+	array('number' => '4462743',		'name' => 'pingstats',								'description'  => 		'Ajoute un attribut ping sur tous les liens de dolibarr pour faire un suivi sur les liens'),
+	array('number' => '4462744',		'name' => 'pdfstop',								'description'  => 		'Stop la création du pdf selon des critères'),
+	array('number' => '4462745',		'name' => 'autonotes',								'description'  => 		'Ajoute une note publique automatiquement'),
+	array('number' => '4462746',		'name' => 'ofplus',									'description'  => 		'Ajoute des éléments pour faciliter les OF (cvm plesnois)'),
+	array('number' => '',				'name' => 'stv_formulaire',							'description'  => 		'fork du module formulaire citique pour suivi production stv'),
+	array('number' => '',				'name' => 'stv_signalement',						'description'  => 		'fork du module signalement citique pour suivi production stv'),
+	
+	/*AUTRES et ANOMALIES*/
+	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
+	array('number' => '496171',			'name' => 'veriflog',								'description'  => 	' vérifier si l\'utilisateur connecté peut accéder au panel Dolibarr, DOUBLON NUMERO'), // Passer sur numéro mikael
+
+);
+
+
+?>
