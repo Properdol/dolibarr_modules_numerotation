@@ -177,6 +177,8 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462744',		'name' => 'pdfstop',								'description'  => 		'Stop la création du pdf selon des critères'),
 	array('number' => '4462745',		'name' => 'autonotes',								'description'  => 		'Ajoute une note publique automatiquement'),
 	array('number' => '4462746',		'name' => 'ofplus',									'description'  => 		'Ajoute des éléments pour faciliter les OF (cvm plesnois)'),
+	array('number' => '4462747',		'name' => 'kopia',									'description'  => 		'Récupère les notifications webhook envoyées par Kopia'),
+	
 	array('number' => '',				'name' => 'stv_formulaire',							'description'  => 		'fork du module formulaire citique pour suivi production stv'),
 	array('number' => '',				'name' => 'stv_signalement',						'description'  => 		'fork du module signalement citique pour suivi production stv'),
 	
