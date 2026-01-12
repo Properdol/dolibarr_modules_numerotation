@@ -179,7 +179,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462746',		'name' => 'ofplus',									'description'  => 		'Ajoute des éléments pour faciliter les OF (cvm plesnois)'),
 	array('number' => '4462746',		'name' => 'monday',									'description'  => 		'Synchronisation entre monday et les projets dolibarr pour STV PPV'),
 	array('number' => '4462748',		'name' => 'kopia',									'description'  => 		'Récupère les notifications webhook envoyées par Kopia'),
-	
+	array('number' => '4462749',		'name' => 'dolitour',								'description'  => 		'Prise en main rapide de dolibarr pour les utilisateurs'),
 	array('number' => '',				'name' => 'stv_formulaire',							'description'  => 		'fork du module formulaire citique pour suivi production stv'),
 	array('number' => '',				'name' => 'stv_signalement',						'description'  => 		'fork du module signalement citique pour suivi production stv'),
 	
