@@ -180,11 +180,14 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462746',		'name' => 'monday',									'description'  => 		'Synchronisation entre monday et les projets dolibarr pour STV PPV'),
 	array('number' => '4462748',		'name' => 'kopia',									'description'  => 		'Récupère les notifications webhook envoyées par Kopia'),
 	array('number' => '4462749',		'name' => 'dolitour',								'description'  => 		'Prise en main rapide de dolibarr pour les utilisateurs'),
+	
+	array('number' => '4462750',		'name' => 'backup_supervise',						'description'  => 		'Suivi du stockage S3 et facturation'),
 	array('number' => '4462750',		'name' => 'stageloicanthony',						'description'  => 		'Prise en main rapide de dolibarr pour les utilisateurs'),
 	array('number' => '4462751',		'name' => 'stageloicanthony',								'description'  => 		'Prise en main rapide de dolibarr pour les utilisateurs'),
-
-	array('number' => '',				'name' => 'stv_formulaire',							'description'  => 		'fork du module formulaire citique pour suivi production stv'),
-	array('number' => '',				'name' => 'stv_signalement',						'description'  => 		'fork du module signalement citique pour suivi production stv'),
+	array('number' => '4462751',		'name' => 'stageloicanthony',								'description'  => 		'Prise en main rapide de dolibarr pour les utilisateurs'),
+	
+	array('number' => '4462752',		'name' => 'resource_horokm',						'description'  => 		'Suivi des kilomètres et des heures pour les ressources'),
+	array('number' => '4462753',		'name' => 'bary_modeles',							'description'  => 		'modèles pdf pour bary.ch'),
 	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
