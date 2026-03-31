@@ -188,6 +188,7 @@ $dolibarr_modules_numerotation = array(
 	
 	array('number' => '4462752',		'name' => 'resource_horokm',						'description'  => 		'Suivi des kilomètres et des heures pour les ressources'),
 	array('number' => '4462753',		'name' => 'bary_modeles',							'description'  => 		'modèles pdf pour bary.ch'),
+	array('number' => '4462754',		'name' => 'resource_pointage',						'description'  => 		'Suivi des heures pour les ressources, en lien avec les projets'),
 	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
