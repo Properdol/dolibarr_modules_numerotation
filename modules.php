@@ -183,8 +183,8 @@ $dolibarr_modules_numerotation = array(
 	
 	array('number' => '4462750',		'name' => 'backup_supervise',						'description'  => 		'Suivi du stockage S3 et facturation'),
 	array('number' => '4462750',		'name' => 'stageloicanthony',						'description'  => 		'Prise en main rapide de dolibarr pour les utilisateurs'),
-	array('number' => '4462751',		'name' => 'stageloicanthony',								'description'  => 		'Prise en main rapide de dolibarr pour les utilisateurs'),
-	array('number' => '4462751',		'name' => 'stageloicanthony',								'description'  => 		'Prise en main rapide de dolibarr pour les utilisateurs'),
+	array('number' => '4462751',		'name' => 'stageloicanthony',						'description'  => 		'Prise en main rapide de dolibarr pour les utilisateurs'),
+	array('number' => '4462751',		'name' => 'stageloicanthony',						'description'  => 		'Prise en main rapide de dolibarr pour les utilisateurs'),
 	
 	array('number' => '4462752',		'name' => 'resource_horokm',						'description'  => 		'Suivi des kilomètres et des heures pour les ressources'),
 	array('number' => '4462753',		'name' => 'bary_modeles',							'description'  => 		'modèles pdf pour bary.ch'),
@@ -195,6 +195,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462758',		'name' => 'panier',									'description'  => 		'Gestion des paniers repas pour le TP/BTP - compatible avec fichehoraire'),
 	array('number' => '4462759',		'name' => 'quickproductaddition',					'description'  => 		'Ajout de produit rapide dans le catalogue depuis un produit libre'),
 	array('number' => '4462760',		'name' => 'stockview',								'description'  => 		'Vue et valorisation du stock'),
+	array('number' => '4462761',		'name' => 'deepltranslator',						'description'  => 		'Traduit les descriptions des articles avec deepl),
 	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
