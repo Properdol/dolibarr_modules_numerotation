@@ -197,6 +197,8 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462760',		'name' => 'stockview',								'description'  => 		'Vue et valorisation du stock'),
 	array('number' => '4462761',		'name' => 'deepltranslator',						'description'  => 		'Traduit les descriptions des articles avec deepl'),
 	array('number' => '4462762',		'name' => 'rclone',									'description'  => 		'Supervise les logs renvoyé par rclone via un webhook'),
+	array('number' => '4462763',		'name' => 'bonjour-bakcup',							'description'  => 		'Interface pour les clients bonjour-backup'),
+	array('number' => '4462764',		'name' => 'rapport',								'description'  => 		'Génère des rapport à partir des réponses aux questionnaires'),
 	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
