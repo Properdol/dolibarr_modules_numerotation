@@ -199,6 +199,9 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462762',		'name' => 'rclone',									'description'  => 		'Supervise les logs renvoyé par rclone via un webhook'),
 	array('number' => '4462763',		'name' => 'bonjour-bakcup',							'description'  => 		'Interface pour les clients bonjour-backup'),
 	array('number' => '4462764',		'name' => 'rapport',								'description'  => 		'Génère des rapport à partir des réponses aux questionnaires'),
+	array('number' => '4462765',		'name' => 'getfiles',								'description'  => 		'Place dans un zip tous les pdf des factures depuis la liste des factures'),
+	array('number' => '4462766',		'name' => 'supervision',							'description'  => 		'Affiche les informations des dolibarr supervisés'),
+	array('number' => '4462767',		'name' => 'supevisionclient',						'description'  => 		'Fourni les informations au superviseur'),
 	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
