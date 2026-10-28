@@ -39,7 +39,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '446121',			'name' => 'attestation TVA',							'description'  =>   'génère attestation TVA 5.5% renovation'),
 	array('number' => '446122',			'name' => 'mrp',								'description'  =>   'Gestion des MRP pour LDM'),
 	array('number' => '446123',			'name' => 'automicroentreprise',									'description'  =>   '???'),
-	array('number' => '446124',			'name' => 'acompte rapide'							'description'  =>   'Permet de saisir rapidement un acompte'),
+	array('number' => '446124',			'name' => 'acompte rapide',							'description'  =>   'Permet de saisir rapidement un acompte'),
 	array('number' => '446125',			'name' => '???',								'description'  =>   '???'),
 	array('number' => '446126',			'name' => 'planning général',							'description'  =>   'affiche planning kanban à partir des tranches (LDM) DOUBLON AVEC 446118 ?'),
 	array('number' => '446128',			'name' => 'remise globale',							'description'  => 	'Calcule et affiche la remise globale sur devis et commande'),
@@ -124,7 +124,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '446230',			'name' => 'commande liste plus',					'description'  => 	'Ajoute des colonnes sur la liste des commandes'),
 	array('number' => '446231',			'name' => 'pdf message',							'description'  => 	'Ajoute un message sur le pdf'),
 	array('number' => '446232',			'name' => 'dpt auto',								'description'  => 	'Trigger pour remplir automatiquement le département du tiers depuis le code postal'),
-	array('number' => '446233',			'name' => 'propal commercial verif'					'description'  => 	'Vérifie si tva et prix achat sont présens sur chaque ligne sinon affiche message'),
+	array('number' => '446233',			'name' => 'propal commercial verif',					'description'  => 	'Vérifie si tva et prix achat sont présens sur chaque ligne sinon affiche message'),
 	array('number' => '446234',			'name' => 'autoliquidationIC TVA',					'description'  => 	'Autoliquidation TVA IC'),
 	array('number' => '446235',			'name' => 'SAV',									'description'  => 	'Gestion des SAV sur les tranches LDM'),
 	array('number' => '446236',			'name' => 'don plus',								'description'  => 	'Modele pdf de reçu fiscal pdf'),
@@ -202,6 +202,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462765',		'name' => 'getfiles',								'description'  => 		'Place dans un zip tous les pdf des factures depuis la liste des factures'),
 	array('number' => '4462766',		'name' => 'supervision',							'description'  => 		'Affiche les informations des dolibarr supervisés'),
 	array('number' => '4462767',		'name' => 'supevisionclient',						'description'  => 		'Fourni les informations au superviseur'),
+	array('number' => '4462768',		'name' => 'fastpaiement',							'description'  => 		'Saisie rapide des règlements depuis la liste des factures clients (modale AJAX)'),
 	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
