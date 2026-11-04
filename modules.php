@@ -203,6 +203,8 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462766',		'name' => 'supervision',							'description'  => 		'Affiche les informations des dolibarr supervisés'),
 	array('number' => '4462767',		'name' => 'supevisionclient',						'description'  => 		'Fourni les informations au superviseur'),
 	array('number' => '4462768',		'name' => 'fastpaiement',							'description'  => 		'Saisie rapide des règlements depuis la liste des factures clients (modale AJAX)'),
+	array('number' => '4462769',		'name' => 'acomptepdf',							'description'  => 		'Affiche le montant de l\'acompte sur le PDF des devis (pourcentage par défaut et par devis)'),
+	array('number' => '4462770',		'name' => 'setthepdf',							'description'  => 		'Ordre et masquage des colonnes et de la zone des totaux des PDF devis, commandes et factures (cyan, eratosthene, sponge)'),
 	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
