@@ -205,6 +205,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462768',		'name' => 'fastpaiement',							'description'  => 		'Saisie rapide des règlements depuis la liste des factures clients (modale AJAX)'),
 	array('number' => '4462769',		'name' => 'acomptepdf',							'description'  => 		'Affiche le montant de l\'acompte sur le PDF des devis (pourcentage par défaut et par devis)'),
 	array('number' => '4462770',		'name' => 'setthepdf',							'description'  => 		'Ordre et masquage des colonnes et de la zone des totaux des PDF devis, commandes et factures (cyan, eratosthene, sponge)'),
+	array('number' => '4462771',		'name' => 'doliquick',							'description'  => 		'Clone la configuration d\'une entité (modules, paramétrage, affichage, sécurité, alertes, limites, PDF) et export / import JSON'),
 	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
