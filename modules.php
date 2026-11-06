@@ -207,6 +207,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462770',		'name' => 'setthepdf',								'description'  => 		'Ordre et masquage des colonnes et de la zone des totaux des PDF devis, commandes et factures (cyan, eratosthene, sponge)'),
 	array('number' => '4462771',		'name' => 'doliquick',								'description'  => 		'Clone la configuration d\'une entité (modules, paramétrage, affichage, sécurité, alertes, limites, PDF) et export / import JSON'),
 	array('number' => '4462772',		'name' => 'ntfy',									'description'  => 		'Notifications push ntfy : utilisateurs, canaux de groupe, envois planifiés (cron)'),
+	array('number' => '4462773',		'name' => 'tdb',									'description'  => 		'Tableau de bord de pilotage : CA facturé / encaissé vs N-1, évolution mensuelle, balance âgée des créances, délais de règlement'),
 	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
