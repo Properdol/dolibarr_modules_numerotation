@@ -209,6 +209,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462772',		'name' => 'ntfy',									'description'  => 		'Notifications push ntfy : utilisateurs, canaux de groupe, envois planifiés (cron)'),
 	array('number' => '4462773',		'name' => 'tdb',									'description'  => 		'Tableau de bord de pilotage : CA facturé / encaissé vs N-1, évolution mensuelle, balance âgée des créances, délais de règlement'),
 	array('number' => '4462774',		'name' => 'rhplanning',							'description'  => 		'Planning des congés des utilisateurs par demi-journée (multisociété, création/validation en modale, export Excel)'),
+	array('number' => '4462775',		'name' => 'hebergement',						'description'  => 		'Suivi des hébergements : serveurs, espaces web, installations (prestations, versions, PHP, MainWP), domaines, tiers et contrats'),
 	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
