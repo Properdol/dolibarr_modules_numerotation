@@ -211,6 +211,7 @@ $dolibarr_modules_numerotation = array(
 	array('number' => '4462774',		'name' => 'rhplanning',							'description'  => 		'Planning des congés des utilisateurs par demi-journée (multisociété, création/validation en modale, export Excel)'),
 	array('number' => '4462775',		'name' => 'hebergement',						'description'  => 		'Suivi des hébergements : serveurs, espaces web, installations (prestations, versions, PHP, MainWP), domaines, tiers et contrats'),
 	array('number' => '4462776',		'name' => 'spigao',								'description'  => 		'Interface avec Spigao (Intescia Insight API) : liste des affaires suivies, puis import des DCI (DPGF/DQE) en devis'),
+	array('number' => '4462777',		'name' => 'structures',								'description'  => 		'Collecte des établissements d\'un territoire (API Recherche d\'entreprises / Sirene), jeunes entreprises, enrichissement web, conversion en tiers, export XLSX/CSV'),
 	
 	/*AUTRES et ANOMALIES*/
 	array('number' => '580000',			'name' => 'gamme produit',							'description'  => 	'??? NUMERO NON CONFORME, HORS SEGMENT ?'),
